@@ -1,83 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Montserrat:ital,wght@0,600;0,800;1,400&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Manrope', sans-serif;
-font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Montserrat:ital,wght@0,600;0,800;1,400&display=swap");
+/*definindo algumas propriedades para todo o codigo*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+/*colocando header em cada link do projeto*/
 .header {
-    justify-content: space-around;
+  justify-content: space-around;
   padding: 30px;
-    width: 100%;
-    background-color: black;
-  }
-  
-  .header,
-  .header__navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    
-  }
-  .header__navigation,
-  .header__link {
-    padding: 0 18px;
-    text-decoration: none;
-    color: #fff;
-  }
+  width: 100%;
+  background-color: black;
+}
 
-  .header__link:hover{
-    color:#1c059b;
-    transition: 0.5 ease-in;
-    font-weight: 700;
-  }
+.header,
+.header__navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.header__navigation,
+.header__link {
+  padding: 0 18px;
+  text-decoration: none;
+  color: #fff;
+}
 
-  .formacoes{
-    background: #EAF2FD;
-   padding: 8rem;
- }
- 
- .formacoes__tittle{
-   background: #EAF2FD;
-   font-size: 32px;
-   text-align: center;
-   padding-bottom: 3rem;
- }
- 
- .formacoes__container{
-   
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20px;
- }
- 
- .formacoes__containers{
-   height: 185px;
-   width: 380px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  
- }
- 
- .formacoes__containers > img{
+.header__link:hover {
+  color: #1c059b;
+  transition: 0.5 ease-in;
+  font-weight: 700;
+}
+/*ultilizando metodologia BEM para legilibilidade do codigo*/
+.formacoes {
+  background: #eaf2fd;
+  padding: 8rem;
+}
+
+.formacoes__tittle {
+  background: #eaf2fd;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.formacoes__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.formacoes__containers {
+  height: 185px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formacoes__containers > img {
   width: 100%;
   height: 100%;
-   margin-top: 5rem;
-   background: #fff;
- }
- 
- .formacoes__containers  p{
-   color: #464646;
-    font-size: 20px;
-    font-weight: 700;
-    padding-top: 21px;
- }
+  margin-top: 5rem;
+  background: #fff;
+}
 
- 
-    
- 
+.formacoes__containers p {
+  color: #464646;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 21px;
+}

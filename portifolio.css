@@ -1,3 +1,4 @@
+/*definindo algumas propriedades para todo o codigo*/
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +8,15 @@
 }
 .header {
   justify-content: space-around;
-
   margin-left: 8rem;
-  background-image: url(/assets/auto_awesome.png);
+  background-image: url(./image_1.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 2.25rem;
   background-color: #f5f5f5;
 }
 
-.header h3{
+.header h3 {
   color: #1c059b;
 }
 
@@ -34,8 +34,8 @@
   color: #464646;
 }
 
-.header__link:hover{
-  color:#1c059b;
+.header__link:hover {
+  color: #1c059b;
   transition: 0.5 ease-in;
   font-weight: 700;
 }
@@ -50,6 +50,8 @@
   margin-top: 2rem;
   width: 60%;
 }
+
+/*ultilizando metodologia BEM para legilibilidade do codigo*/
 
 .principal__tittle {
   font-weight: 700;
